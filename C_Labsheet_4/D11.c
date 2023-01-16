@@ -4,7 +4,7 @@ them in ascending order*/
 void main()
 {
  int arr[10],i,j,t;
- clrscr();
+ //clrscr();
 
  //asking input
  printf("Enter 10 numbers\n");
@@ -26,9 +26,9 @@ void main()
  }
 
  //print
-
+ printf("\nNumbers in Ascending order are\n");
  for(i=0;i<10;i++)
   printf("%d\n",arr[i]);
 
- getch();
+ //getch();
 }

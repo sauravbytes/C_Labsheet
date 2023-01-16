@@ -8,16 +8,20 @@ void main()
     //clrscr();
     
     //Input in first array
-    printf("Enter 4 numbers in first array\n");
     for(i=0;i<2;i++)
         for(j=0;j<2;j++)
+        {
+            printf("Enter element for a%d%d: ",i+1,j+1);
             scanf("%d",&a[i][j]);
+        }
     
     //Input in second array
-    printf("Enter 4 numbers in second array\n");
     for(i=0;i<2;i++)
         for(j=0;j<2;j++)
+        {
+            printf("Enter element for b%d%d: ",i+1,j+1);
             scanf("%d",&b[i][j]);
+        }
     
     //adding both array
     for(i=0;i<2;i++)

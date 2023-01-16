@@ -4,13 +4,16 @@ columns. Calculate the sum of even numbers among them*/
 void main()
 {
  int arr[3][4],i,j,sum=0;
- clrscr();
+ //clrscr();
 
  //input
- printf("Enter 12 numbers for 3x4 array\n");
+ 
  for(i=0;i<3;i++)
   for(j=0;j<4;j++)
-   scanf("%d",&arr[i][j]);
+  {
+    printf("Enter element for a%d%d: ",i+1,j+1);
+    scanf("%d",&arr[i][j]);
+  }
 
  //sum of even numbers
  for(i=0;i<3;i++)
@@ -21,6 +24,6 @@ void main()
   }
  //printing sum of even numbers
  printf("Sum of even numbers is : %d",sum);
- getch();
+ //getch();
 
 }

@@ -5,7 +5,7 @@ sum of all elements of the array*/
 void main()
 {
  int arr[3][3],i,j,sum=0;
- clrscr();
+ //clrscr();
 
  //input
  printf("Enter 9 number of 3x3 array\n");
@@ -20,5 +20,5 @@ void main()
 
  //printing sum
  printf("\nSum of all the elements of array is:%d",sum);
- getch();
+ //getch();
 }

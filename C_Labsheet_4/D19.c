@@ -60,7 +60,7 @@ void main()
     else
     {
         printf("Matrices Cannot be compared");
-        exit;
+        exit(1);
     }
 
     if(flag==1)

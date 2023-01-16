@@ -4,15 +4,15 @@ the number of persons with age from 16 to 20.*/
 void main()
 {
  int arr[100],i,count=0;
- clrscr();
+ //clrscr();
 
  //age of 100 persons
  printf("Enter age of 100 persons\n");
- for(i=0;i<5;i++)
+ for(i=0;i<100;i++)
   scanf("%d",&arr[i]);
 
  //finding person from age 16 to 20
- for(i=0;i<5;i++)
+ for(i=0;i<100;i++)
  {
   if(arr[i]>=16 && arr[i]<=20)
    count++;

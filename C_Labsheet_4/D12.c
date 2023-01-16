@@ -5,7 +5,7 @@ descending order*/
 void main()
 {
  int arr[10],i,j,t;
- clrscr();
+ //clrscr();
 
  //input numbers
  printf("Enter numbers in an array\n");

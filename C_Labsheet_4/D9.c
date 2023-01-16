@@ -1,4 +1,4 @@
-/*WAP to input salary of N number of employees and count the number
+ /*WAP to input salary of N number of employees and count the number
 of employees receiving salary above 20,000*/
 
 #include<stdio.h>
@@ -28,6 +28,6 @@ void main()
   if(arr[i]>20000)
    count++;
  }
- printf("\n%d employeet has salary more than 20,000",count);
+ printf("\n%d employee has salary more than 20,000",count);
  //getch();
 }

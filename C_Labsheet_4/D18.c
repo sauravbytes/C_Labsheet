@@ -11,17 +11,21 @@ void main()
    scanf("%d %d",&r,&c);
 
    //input in first array
-   printf("Enter elements in first array\n");
    for(i=0;i<r;i++)
     for(j=0;j<c;j++)
+    {
+        printf("Enter element for a%d%d: ",i+1,j+1);
         scanf("%d",&a[i][j]);
+    }
+
+   //input in second array
    
-   //input in first array
-   printf("Enter elements in second array\n");
    for(i=0;i<r;i++)
     for(j=0;j<c;j++)
+    {
+        printf("Enter element for b%d%d: ",i+1,j+1);
         scanf("%d",&b[i][j]);
-
+    }
    //adding both array
    for(i=0;i<r;i++)
     for(j=0;j<c;j++)

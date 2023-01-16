@@ -4,14 +4,16 @@ The program should also display the transpose of the matrix.*/
 void main()
 {
  int arr[2][2],i,j,trans[2][2];
- clrscr();
+ //clrscr();
 
  //input
- printf("Enter 4 elements for 2x2 array\n");
+ 
  for(i=0;i<2;i++)
   for(j=0;j<2;j++)
-   scanf("%d",&arr[i][j]);
-
+  {
+    printf("Enter element for a%d%d: ",i+1,j+1);
+    scanf("%d",&arr[i][j]);
+  }
  //print
  printf("Displaying elements of 2x2 array\n");
  for(i=0;i<2;i++)
@@ -34,5 +36,5 @@ void main()
    printf("%d ",trans[i][j]);
   printf("\n");
  }
- getch();
+ //getch();
 }

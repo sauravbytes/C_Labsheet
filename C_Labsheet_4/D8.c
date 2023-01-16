@@ -4,7 +4,7 @@ and display the highest and lowest marks
 #include<stdio.h>
 void main()
 {
- int arr[5],i,high_marks,low_marks;
+ int arr[65],i,high_marks,low_marks;
  //clrscr();
 
  //asking user to enter marks
