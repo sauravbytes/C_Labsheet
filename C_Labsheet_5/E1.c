@@ -9,7 +9,7 @@ void main()
    //clrscr();
 
    //input string
-   printf("Enter string: ");
+   puts("Enter string: ");
    gets(ch);
 
    //length of string
