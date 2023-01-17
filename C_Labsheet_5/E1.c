@@ -1,7 +1,21 @@
+//Write program that takes a string from user and displays the length of that string.
+
 #include<stdio.h>
-#include<conio.h>
+#include<string.h>
 void main()
 {
-   printf("Saurav");
+   char ch[100];
+   int len;
+   //clrscr();
+
+   //input string
+   printf("Enter string: ");
+   gets(ch);
+
+   //length of string
+   len=strlen(ch);
+
+   //print
+   printf("Length of string is %d",len);
    //getch()
 }
