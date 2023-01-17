@@ -4,7 +4,7 @@ another of size 3×2). Perform the matrix multiplication.*/
 #include<conio.h>
 void main()
 {
-   int a[2][3],b[3][2], mul[2][2];;
+   int a[2][3],b[3][2], mul[2][2];
    int i,j,k;
 
    //input elements in matrix A
