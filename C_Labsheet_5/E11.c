@@ -8,9 +8,9 @@ void main()
     int i;
 
     //input
-    puts("Enter first string in ch Varaiable: ");
+    puts("Enter first string in ch Varaiable");
     gets(ch);
-    puts("Enter second string cp varaiable: ");
+    puts("Enter second string cp varaiable");
     gets(cp);
 
     //copying first string in third variable
@@ -18,7 +18,7 @@ void main()
     strcpy(ch,cp);
     strcpy(cp,t);
 
-    puts("Swapped contents of two string variable are\n");
+    puts("Swapped contents of two string variable are");
     printf("Ch = %s\nCp = %s",ch,cp);
 
 

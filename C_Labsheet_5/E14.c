@@ -16,7 +16,7 @@ void main()
     int i, alphabets = 0, vowels = 0, consonants = 0, digits = 0, spaces = 0, special = 0;
     //clrscr
     
-    printf("Enter a line of text: ");
+    printf("Enter a line of text\n");
     gets(str);
 
     for(i = 0; i < strlen(str); i++)
@@ -24,7 +24,11 @@ void main()
         if((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
         {
             alphabets++;
-            if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U')
+            if(str[i] == 'a' || str[i] == 'e' 
+                || str[i] == 'i' || str[i] == 'o' 
+                || str[i] == 'u' || str[i] == 'A' 
+                || str[i] == 'E' || str[i] == 'I' 
+                || str[i] == 'O' || str[i] == 'U')
             {
                 vowels++;
             }

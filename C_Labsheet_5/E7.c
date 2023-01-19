@@ -7,7 +7,7 @@ void main()
     int i,count=0;
     
     //input
-    puts("Enter string: ");
+    puts("Enter string");
     gets(ch);
 
     //number of Commas
