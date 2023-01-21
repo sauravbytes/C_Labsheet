@@ -1,5 +1,6 @@
-// Write a program that calls a function called getArea(). This function is responsible for reading the length
-// & breadth & print area of rectangle.
+// Write a program that calls a function called getArea(). This function is responsible for 
+//reading the length & breadth & print area of rectangle.
+
 #include<stdio.h>
 //#include<conio.h>
 

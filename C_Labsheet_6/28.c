@@ -1,7 +1,7 @@
 // WAP to find the value of x to the power y using recursive function.
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 int power(int x, int y) {
     if (y == 0) {

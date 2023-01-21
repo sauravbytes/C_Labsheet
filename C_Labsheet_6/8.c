@@ -1,5 +1,5 @@
-// Write function which accepts one integer as argument and returns factorial number one less than that
-// argument.
+// Write function which accepts one integer as argument and returns factorial number 
+// one less than that argument.
 #include<stdio.h>
 //#include<conio.h>
 

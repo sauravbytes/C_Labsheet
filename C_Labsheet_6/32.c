@@ -2,7 +2,7 @@
 // multiplication table of that no.
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 void mul(int x) {
     for (int i = 1; i <= 10; i++) {

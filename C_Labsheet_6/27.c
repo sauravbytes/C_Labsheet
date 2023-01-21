@@ -1,7 +1,7 @@
 // WAP to find the sum of given non-negative integer using a recursive function.
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 int sum(int num) {
     if (num == 0) {

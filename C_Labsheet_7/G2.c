@@ -18,7 +18,7 @@ void main()
     for(i=0;i<5;i++)
         scanf("%s %s %d",e[i].name,e[i].address,&e[i].salary);
 
-    printf("Name of five employees whose salary is greater than 20,000 are\n");
+    printf("Name of employees whose salary is greater than 10,000 are\n");
     for(i=0;i<5;i++)
         if(e[i].salary>10000)
         {

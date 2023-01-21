@@ -9,7 +9,7 @@ struct Employee
     int emp_id,emp_salary;
 };
 
-int main() 
+void main() 
 {
     int n, i;
     printf("Enter the number of employees: ");

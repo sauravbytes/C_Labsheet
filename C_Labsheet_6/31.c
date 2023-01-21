@@ -2,7 +2,7 @@
 // 1. The function returns 1 if the given argument is prime otherwise 0.
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 int isprime(int n) {
     if (n <= 1) {

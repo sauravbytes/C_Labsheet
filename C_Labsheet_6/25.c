@@ -1,7 +1,7 @@
 // Write a program to display the reverse of a number using recursion.
 
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 
 void reverse(int num) {
     if (num < 10) {

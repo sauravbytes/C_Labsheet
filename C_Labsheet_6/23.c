@@ -8,7 +8,7 @@ int find_factorial(int n)
  
    return(n*find_factorial(n-1));
 }
-int main()
+void main()
 {
    int num, fact;
    printf("Enter any integer number:");
@@ -17,5 +17,5 @@ int main()
    fact =find_factorial(num);
  
    printf("factorial of %d is: %d\n",num, fact);
-   return 0;
+   //getch
 }

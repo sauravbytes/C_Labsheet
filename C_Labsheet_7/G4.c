@@ -8,11 +8,11 @@ struct Employee
     int emp_id,emp_salary;
 }emp[10];
 
-int main() 
+void main() 
 {
-    int n, i;
+    int i;
     printf("Enter the details of 10 employees\n");
-    for (i = 0; i < n; i++) 
+    for (i = 0; i < 10; i++) 
     {
         printf("\nEnter details of employee %d\n", i+1);
         printf("ID: ");
@@ -25,7 +25,7 @@ int main()
         scanf("%d", &emp[i].emp_salary);
     }
     printf("\nDetails of 10 Employees are\n");
-    for (i = 0; i < n; i++) 
+    for (i = 0; i < 10; i++) 
     {
         printf("\nEmployee %d\n", i+1);
         printf("ID: %d\n", emp[i].emp_id);

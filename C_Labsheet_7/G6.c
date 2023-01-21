@@ -12,7 +12,7 @@ struct Student {
 };
 
 void main() {
-    int i, n = 3;
+    int i, n = 2;
     struct Student s[n], *ptr;
     //clrscr()
 
