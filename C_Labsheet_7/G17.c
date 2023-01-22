@@ -1,7 +1,8 @@
 //5.WAP to pass structure to function using pointer.
 
-#include <stdio.h>
+
 #include<string.h>
+#include <stdio.h>
 
 struct Student {
     int id;
@@ -15,7 +16,7 @@ void printStudent(struct Student *s) {
     printf("Student Score: %f\n", s->score);
 }
 
-int main() {
+void main() {
     struct Student s1;
     //clrscr
 

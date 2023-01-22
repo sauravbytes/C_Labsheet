@@ -1,27 +1,24 @@
 // Write a function that converts uppercase string to lowercase string.
  
-#include<stdio.h>
-//#include<conio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
-void upper(char text[])
-{
-    int i=0;
-     while( text[i] != '\0' ) 
-     {
-        if( text[i] >= 'a' && text[i] <= 'z' )
-        {
-           text[i] = text[i] - 32;
+// Function to convert uppercase string to lowercase
+void toLowerCase(char s[]) {
+    for (int i = 0; i < strlen(s); i++) {
+        if (s[i] >= 'A' && s[i] <= 'Z') {
+            s[i] = s[i] + ('a' - 'A');
         }
-        i++;
-     }
-     puts(text);
+    }
 }
-void main()
-{
-    char text[50];
-    printf("Enter Uppercased string to convert it into lowercase: ");
-    scanf("%[^\n]",text);
-    upper(text);
-    //getch();
+
+void main() {
+    char s[] = "HELLO WORLD!";
+    printf("Original String: %s\n", s);
+
+    // Convert the string to lowercase
+    toLowerCase(s);
+    printf("Lowercase String: %s\n", s);
+
+    //getch
 }

@@ -4,44 +4,32 @@ Displays “it is vowel” if entered character is vowel otherwise “it is cons
 Displays “it is digit” if entered character is member of digit, otherwise display 
 the ASCII value of entered character.*/
 
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-void main()
-{
+#include <stdio.h>
+
+void main() {
     char ch;
-    int num,val;
-    printf("Enter 1 for opertaion on Alphabet or Enter 2 for opertaion on digit: ");
-    scanf("%d",&num);
-    
-    switch(num)
-    {
-        case '1':
-            puts("Enter a character:");
-            putchar(ch);
-            if(ch=='a'||ch=='A'||ch=='e'||ch=='E'||ch=='i'||ch=='I'||ch=='o'||ch=='O'||ch=='u'||ch=='U')
-            {    
-                printf("It is Vowel");
-                break;
-            }
-            else
-            {
-                printf("It is consonants");
-                break;
-            }
-        case '2':
-            printf("Enter a character: ");
-            scanf("%c", &ch);
+    int choice;
 
-            if(ch>=0)
-            {
-                printf("It is digit");
-            }
-            else
-            {
-                printf("ASCII value is = %d",ch);
-            }
+    printf("Enter a character: ");
+    scanf(" %c", &ch);
+
+    printf("Enter your choice:\n1. Check if the character is a vowel or consonant\n2. Check if the character is a digit\n");
+    scanf("%d", &choice);
+
+    if (choice == 1) {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+            printf("The character '%c' is a vowel.\n", ch);
+        } else {
+            printf("The character '%c' is a consonant.\n", ch);
+        }
+    } else if (choice == 2) {
+        if (ch >= '0' && ch <= '9') {
+            printf("The character '%c' is a digit.\n", ch);
+        } else {
+            printf("The ASCII value of the character '%c' is %d.\n", ch, ch);
+        }
+    } else {
+        printf("Invalid choice\n");
     }
-
-   //getch()
+    //getch
 }

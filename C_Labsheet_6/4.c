@@ -4,10 +4,10 @@
 
 void power(int b, int p)
 {
-    int result = 0;
-    while (p>1)
+    int result = b;
+    while(p>1)
     {
-        result = b*b;
+        result=result*b;
         p--;
     }
     printf("Result: %d\n",result);
@@ -15,9 +15,9 @@ void power(int b, int p)
 }
 void main()
 {
-    int b,p;
-    printf("Enter the base value and then the power value:\n");
-    scanf("%d %d",&b,&p);
-    power(b,p);
+    int x,y;
+    printf("Enter the base value X and then the power value Y:\n");
+    scanf("%d %d",&x,&y);
+    power(x,y);
     //getch();
 }

@@ -4,15 +4,12 @@
 #include<stdio.h>
 //#include<conio.h>
 
-void even(int n1,int n2)
-{
-    int a = n1, b = n2;
-    while(a>b){
-        if(a%2==0)
-        {
-            printf("%d",a);    
+void even(int n1, int n2) {
+    int i;
+    for (i = n1; i <= n2; i++) {
+        if (i % 2 == 0) {
+            printf("%d ", i);
         }
-        a++;
     }
 }
 void main()
