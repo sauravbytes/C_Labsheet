@@ -1,4 +1,5 @@
 //Create a file to store following ten numbers: -2, -8. -99. -100. 101. 20, 21, -9, 1000, 10.
+
 #include<stdio.h>
 void main()
 {
